@@ -5,7 +5,7 @@ const helmet = require('helmet');
 const cors = require('cors');
 const path = require('path');
 
-const authRoutes = require('./routes/auth');
+    const authRoutes = require('./auth')
 const adminRoutes = require('./routes/admin');
 const { apiLimiter } = require('./middleware/rateLimit');
 
