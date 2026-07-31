@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TITAN PANEL — Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&family=Tajawal:wght@700;900&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { titanBlack: '#080a0e', titanRed: '#e11d2a', titanDark: '#111318', titanSurface: '#16171f', titanBorder: '#23242f', titanText: '#e8e9ec' },
+          fontFamily: { cairo: ['Cairo','sans-serif'], tajawal: ['Tajawal','serif'] }
+        }
+      }
+    }
+  </script>
+  <style>body{background:#080a0e;color:#e8e9ec;font-family:'Cairo',sans-serif;}</style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
