@@ -6,8 +6,8 @@ const cors = require('cors');
 const path = require('path');
 
     const authRoutes = require('./auth')
-const adminRoutes = require('./routes/admin');
-const { apiLimiter } = require('./middleware/rateLimit');
+const adminRoutes = require('./admin');
+const { apiLimiter } = require('./rateLimit');
 
 const app = express();
 
