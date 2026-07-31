@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../User');
-const LicenseCode = require('../LicenseCode');
-const ServerLog = require('../ServerLog');
-const Channel = require('../Channel');
-const { protect, authorize } = require('../auth');
+const User = require('./User');
+const LicenseCode = require('./LicenseCode');
+const ServerLog = require('./ServerLog');
+const Channel = require('./Channel');
+const { protect, authorize } = require('./auth');
 const xlsx = require('xlsx');
 const fs = require('fs');
 const path = require('path');
