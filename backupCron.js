@@ -2,7 +2,7 @@ const cron = require('node-cron');
 const fs = require('fs');
 const path = require('path');
 const mongoose = require('mongoose');
-const User = require('../models/User');
+const User = require('../User');
 require('dotenv').config();
 
 mongoose.connect(process.env.MONGO_URI);
